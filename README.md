@@ -4,7 +4,7 @@
 
 Add the following in your `.pre-commit-config.yaml`:
 ```yaml
-- repo: https://github.com/Cretezy/dart-format-pre-commit
+- repo: https://github.com/varunachar/dart-format-pre-commit
   rev: "master"
   hooks:
     - id: dart-format
@@ -13,7 +13,7 @@ Add the following in your `.pre-commit-config.yaml`:
 You can also only include/exclude some files (defaults to only `.dart`, is a pattern):
 
 ```yaml
-- repo: https://github.com/Cretezy/dart-format-pre-commit
+- repo: https://github.com/varunachar/dart-format-pre-commit
   rev: "master"
   hooks:
     - id: dart-format
